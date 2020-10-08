@@ -1,0 +1,10 @@
+Steps to install BIRDS on a workstation (Windows system):
+1.4.1 Download jar packages required for BIRDS plugin:
+git clone: https://github.com/bleach1by1/BIRDS_plugin
+Unzip the downloaded zip file (containing 5 jar packages). Open the Fiji’s folder, copy the birds.jar (from zip file) to the Fiji/plugins folder of Fiji and copy junrar-0.7.jar、ant-1.6.5.jar、poi-3.17.jar、ImarisLib.jar to Fiji/ jars folder
+source code: https://github.com/bleach1by1/birds_reg
+1.4.2 Training the neural network to segment brain regions (optional):
+download the following program:
+git clone: https://github.com/bleach1by1/birds_dl.git
+1.4.3 Downloading path of example data:
+https://github.com/bleach1by1/BIRDS_demo
